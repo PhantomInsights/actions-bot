@@ -137,7 +137,7 @@ It's time to configure our repository.
 
 ### Secrets
 
-Exposing yuur Discord webhook url is a terrible idea, anyone can use it to flood your server with spam or worse.
+Exposing your Discord webhook url is a terrible idea, anyone can use it to flood your server with spam or worse.
 
 Thankfully there's a way to store it securely and this is using the repository secrets.
 
@@ -239,6 +239,6 @@ I hope you liked this tutorial and I hope it gives you ideas on how to expand on
 
 For example, if you want to make a Reddit bot you would only require to set 4 secrets (username, passowrd, app id and app secret), add `praw` to the requirements.txt file and you are ready to go.
 
-While writing this tutorial I also tried another script that generaeted .csv files and stored them into the same repository.
+While writing this tutorial I also tried another script that generated .csv files and stored them into the same repository.
 
 You can also use this workflow to generate daily reports from different sources.
