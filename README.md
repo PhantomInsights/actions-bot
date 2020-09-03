@@ -167,7 +167,7 @@ We also need to add a file named `requirements.txt` to the top-level of the repo
 
 Afterwards we need to create a folder named `.github` and INSIDE that folder create another folder named `workflows`.
 
-Inside that `workflows` folder you must add a `.yml` file. You can name it as you like but it must have that file extension.
+Inside that `workflows` folder we must add a `.yml` file. You can name it as you like but it must have that file extension. I also included a sample one in this repository.
 
 The following code is the contents of the  `.yml` file we will be using.
 
@@ -237,8 +237,10 @@ Debugging Actions is really easy.
 
 I hope you liked this tutorial and I hope it gives you ideas on how to expand on this idea.
 
-For example, if you want to make a Reddit bot you would only require to set 4 secrets (username, passowrd, app id and app secret), add `praw` to the requirements.txt file and you are ready to go.
+For example, if you want to make a Reddit bot you would only require to set 4 secrets (username, password, app id and app secret), add `praw` to the requirements.txt file and you are ready to go.
 
 While writing this tutorial I also tried another script that generated .csv files and stored them into the same repository.
 
 You can also use this workflow to generate daily reports from different sources.
+
+[![Become a Patron!](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=20521425)
